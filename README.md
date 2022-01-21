@@ -1,1 +1,1 @@
-# 2022_wids_datathon
+# 2022 WiDS (Women in Data Science) Datathon

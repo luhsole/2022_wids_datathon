@@ -47,5 +47,5 @@ The WiDS Datathon 2022 focuses on a prediction task involving roughly 100k obser
 - max_wind_speed: maximum wind speed at the location of the building
 - days_with_fog: number of days with fog at the location of the building
 
-Target
+**Target**
 - site_eui: Site Energy Usage Intensity is the amount of heat and electricity consumed by a building as reflected in utility bills

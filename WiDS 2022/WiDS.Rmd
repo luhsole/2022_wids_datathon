@@ -1,0 +1,35 @@
+---
+title: "WiDS"
+author: "Hansol Lee, Anthony Chelf"
+date: "1/11/2022"
+output: 
+  pdf_document:
+    latex_engine: xelatex
+---
+
+First things first, read the training/test data.
+```{r}
+test <- read.csv("test.csv")
+train <- read.csv("train.csv")
+```
+
+```{r}
+sum(is.na(test))
+is.null(test)
+sum(is.na(train))
+is.null(train)
+
+trim.train <- na.omit(train)
+trim.test <- na.omit(test)
+```
+```{r}
+lm.fit <- lm(site_eui ~ ., data = trim.train)
+summary(lm.fit)
+```
+
+```{r}
+plot(lm.fit)
+```
+
+
+
